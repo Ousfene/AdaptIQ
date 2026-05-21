@@ -1,0 +1,154 @@
+{
+  "timestamp": "2026-04-02T01:09:30.079523+00:00",
+  "phases": {
+    "auth": {
+      "novice_reader_1775089851": {
+        "status": "OK",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkZmVhZDg1Mi01YzFjLTQzOTYtODUzNi1iYTZlYmNmYzMxMmQiLCJleHAiOjE3NzUwOTM5NzAsImlhdCI6MTc3NTA5MjE3MCwianRpIjoiYWJjZWI2OTYtYmY1ZS00NjNlLWE1MDAtZGM3Mjc2OGFiZjZlIn0.Kxvk58MVeH5tEqxXDOpyNe0qvaff9B2R1HUVi3jwQQg",
+        "user_id": "dfead852-5c1c-4396-8536-ba6ebcfc312d",
+        "username": "novice_reader_1775089851",
+        "email": "novice_reader_test@example.com"
+      },
+      "geo_expert_1775089851": {
+        "status": "OK",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkNWU0ZWFmZS04ODE1LTRhNjktYmVmNy01YjU0NGYzMGM4NGMiLCJleHAiOjE3NzUwOTM5NzEsImlhdCI6MTc3NTA5MjE3MSwianRpIjoiNWVlYmNkNDAtMmIwMi00MGM3LTlmNTAtNGFlNmQ5MTZlNWQ4In0.7y7XwQQmAr0GK-giieQOYARDbfapq2nd7FZccSGELEo",
+        "user_id": "d5e4eafe-8815-4a69-bef7-5b544f30c84c",
+        "username": "geo_expert_1775089851",
+        "email": "geo_expert_test@example.com"
+      },
+      "hist_expert_1775089851": {
+        "status": "OK",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0YTFmYTg1ZC02ZWQ4LTQ0NDAtOGMyZS1kOGZjMjgxYTYzNzUiLCJleHAiOjE3NzUwOTM5NzEsImlhdCI6MTc3NTA5MjE3MSwianRpIjoiNjM1NjczZDMtZWMwYy00NDM4LWJmOTctM2YyYmU1YjVjZjAzIn0.D7mr602Pc48XTHXnaX9sLrMtnQZrFzS2hsRhHNVFC18",
+        "user_id": "4a1fa85d-6ed8-4440-8c2e-d8fc281a6375",
+        "username": "hist_expert_1775089851",
+        "email": "hist_expert_test@example.com"
+      },
+      "balanced_1775089851": {
+        "status": "OK",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1ODE5MTQ5Yy0wOGMzLTQ1MWYtOGIzNS0yMGQxZmYwOTAwMTEiLCJleHAiOjE3NzUwOTM5NzEsImlhdCI6MTc3NTA5MjE3MSwianRpIjoiZjYwZjBhNWQtNjY4OC00ZWU4LTk0NjQtOTQ5MzE4NTFjOWUyIn0.C2egTw-2qp_Re9Ed8KgvtWWwHTEwNN6UBntM4KlgGQY",
+        "user_id": "5819149c-08c3-451f-8b35-20d1ff090011",
+        "username": "balanced_1775089851",
+        "email": "balanced_test@example.com"
+      },
+      "challenger_1775089851": {
+        "status": "OK",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlMTljZDMyNC1kMjVjLTQzMjctOGM2OC00ZDNhYTRjMTk3YzgiLCJleHAiOjE3NzUwOTM5NzEsImlhdCI6MTc3NTA5MjE3MSwianRpIjoiMzZlMTBhZWYtODc0OS00YjVkLWJmZGEtNjg2Y2U2ODk5ZjU5In0.q4Y18lKXeTXdzf-uzHtTvsSA2Oaa4SJYvXabchivRVM",
+        "user_id": "e19cd324-d25c-4327-8c68-4d3aa4c197c8",
+        "username": "challenger_1775089851",
+        "email": "challenger_test@example.com"
+      }
+    },
+    "dashboard": {
+      "novice_reader_1775089851": {
+        "status": "OK",
+        "user": {
+          "username": "novice_reader_1775089851",
+          "level": "Novice",
+          "elo_global": 0.0,
+          "points": 0
+        }
+      },
+      "geo_expert_1775089851": {
+        "status": "OK",
+        "user": {
+          "username": "geo_expert_1775089851",
+          "level": "Novice",
+          "elo_global": 0.0,
+          "points": 0
+        }
+      },
+      "hist_expert_1775089851": {
+        "status": "OK",
+        "user": {
+          "username": "hist_expert_1775089851",
+          "level": "Novice",
+          "elo_global": 0.0,
+          "points": 0
+        }
+      },
+      "balanced_1775089851": {
+        "status": "OK",
+        "user": {
+          "username": "balanced_1775089851",
+          "level": "Novice",
+          "elo_global": 0.0,
+          "points": 0
+        }
+      },
+      "challenger_1775089851": {
+        "status": "OK",
+        "user": {
+          "username": "challenger_1775089851",
+          "level": "Novice",
+          "elo_global": 0.0,
+          "points": 0
+        }
+      }
+    },
+    "profile": {
+      "novice_reader_1775089851": {
+        "status": "OK",
+        "concept_count": 0,
+        "concepts": []
+      },
+      "geo_expert_1775089851": {
+        "status": "OK",
+        "concept_count": 0,
+        "concepts": []
+      },
+      "hist_expert_1775089851": {
+        "status": "OK",
+        "concept_count": 0,
+        "concepts": []
+      },
+      "balanced_1775089851": {
+        "status": "OK",
+        "concept_count": 0,
+        "concepts": []
+      },
+      "challenger_1775089851": {
+        "status": "OK",
+        "concept_count": 0,
+        "concepts": []
+      }
+    },
+    "classic_room": {
+      "novice_reader_1775089851": {
+        "status": "OK",
+        "responses_in_db": 0,
+        "question_endpoint_status": 422
+      },
+      "geo_expert_1775089851": {
+        "status": "OK",
+        "responses_in_db": 0,
+        "question_endpoint_status": 422
+      },
+      "hist_expert_1775089851": {
+        "status": "OK",
+        "responses_in_db": 0,
+        "question_endpoint_status": 422
+      },
+      "balanced_1775089851": {
+        "status": "OK",
+        "responses_in_db": 0,
+        "question_endpoint_status": 422
+      },
+      "challenger_1775089851": {
+        "status": "OK",
+        "responses_in_db": 0,
+        "question_endpoint_status": 422
+      }
+    },
+    "challenge_room": {
+      "status": "INFO",
+      "message": "No challenge rank yet"
+    }
+  },
+  "summary": {
+    "timestamp": "2026-04-02T01:09:31.755716+00:00",
+    "profiles_tested": 5,
+    "profiles_authenticated": 5,
+    "total_log_entries": 31,
+    "status": "COMPLETE"
+  }
+}

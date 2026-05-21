@@ -1,0 +1,110 @@
+{
+  "timestamp": "2026-04-02T16:30:53.756029",
+  "phases": {
+    "authentication": {
+      "status": "PASS",
+      "tests": [
+        {
+          "test": "Registration",
+          "status": "PASS",
+          "details": "User created: 852a0a6b-b5e6-4acc-9e0e-56546a42bcd6"
+        },
+        {
+          "test": "Login",
+          "status": "PASS",
+          "token_length": 248
+        },
+        {
+          "test": "JWT Validation (/me)",
+          "status": "PASS",
+          "user_email": "test_7f653dcd@example.com"
+        },
+        {
+          "test": "User Stats",
+          "status": "PASS",
+          "total_questions": 0
+        }
+      ],
+      "user_id": "852a0a6b-b5e6-4acc-9e0e-56546a42bcd6",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4NTJhMGE2Yi1iNWU2LTRhY2MtOWUwZS01NjU0NmE0MmJjZDYiLCJleHAiOjE3NzUxNDU2NTQsImlhdCI6MTc3NTE0Mzg1NCwianRpIjoiYmMxNmYzNTMtNThmYy00ZGMzLTkwYjMtYTQ4NDQ0NzRiMzIzIn0.sfjZeYVbWOzYWM0gXiEEEjQxcIYQ4Hc_eS5JCfCQ5mY",
+      "email": "test_7f653dcd@example.com"
+    },
+    "classic_room": {
+      "status": "PASS",
+      "tests": [
+        {
+          "test": "Start Session",
+          "status": "PASS",
+          "session_id": "77f761bc-1e2e-4a02-8730-2f702e9c9926"
+        },
+        {
+          "test": "Question 5",
+          "status": "FAIL",
+          "status_code": 503,
+          "error": "{\"detail\":\"Could not generate question\"}"
+        },
+        {
+          "test": "Question Generation & Answers",
+          "status": "PASS",
+          "questions_fetched": 4
+        }
+      ],
+      "questions": [
+        {
+          "question_number": 1,
+          "id": "18bab945-cea0-42ec-9474-6cf6a5038eab",
+          "text": "The Ottoman Empire's diplomatic efforts in the 18th century led to the Treaty of",
+          "option_count": 4,
+          "explanation_present": true
+        },
+        {
+          "question_number": 2,
+          "id": "d55684c8-4072-4276-b137-3691235898bd",
+          "text": "Which lesser-known treaty marked the beginning of Ottoman expansion in Eastern E",
+          "option_count": 4,
+          "explanation_present": true
+        },
+        {
+          "question_number": 3,
+          "id": "c5a79c2d-e8e0-460d-982e-38322492d338",
+          "text": "In 1536, the Ottoman Empire and the Holy Roman Empire signed the Peace of Nagyv\u00e1",
+          "option_count": 4,
+          "explanation_present": true
+        },
+        {
+          "question_number": 4,
+          "id": "2f2e731f-5bae-4d13-a98a-c1fd84708278",
+          "text": "Which lesser-known treaty signed by the Ottoman Empire marked a significant shif",
+          "option_count": 4,
+          "explanation_present": true
+        }
+      ],
+      "theta_progression": [],
+      "difficulty_progression": []
+    },
+    "system_health": {
+      "status": "PASS",
+      "tests": [
+        {
+          "test": "Health Check",
+          "status": "PASS",
+          "database": "ok",
+          "redis": "ok"
+        },
+        {
+          "test": "Monitoring Stats",
+          "status": "PASS",
+          "total_requests": 13,
+          "total_errors": 19
+        }
+      ]
+    }
+  },
+  "summary": {
+    "total_tests": 9,
+    "passed": 8,
+    "failed": 1,
+    "errors": 0,
+    "success_rate": "88%"
+  }
+}

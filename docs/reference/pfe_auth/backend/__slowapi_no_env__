@@ -1,0 +1,1 @@
+# Empty sentinel config file for SlowAPI to avoid .env auto-load and warning noise.

@@ -1,0 +1,22 @@
+#!/bin/bash
+cd "C:\Users\mns\Desktop\pfe_auth"
+git add -A
+git commit -m "feat: Implement concept-aware question caching with per-user ELO
+
+- Add ConceptCacheService for smart concept selection (80/20 strategy)
+- Add QuestionCacheService for Redis performance caching
+- Fix dead code in auth_service.py (lines 90-98)
+- Fix datetime deprecation in concept_irt.py (line 237)
+- Fix frontend port mapping in docker-compose.yml (5173:5173)
+- Fix UnboundLocalError in classic_room.py (concept_ids initialization)
+- Fix falsy dict logic in concept_cache_service.py (response_count check)
+- Add comprehensive test suite (test_concept_awareness.py - 7 tests)
+- Add complete system documentation (CONCEPT_AWARE_SYSTEM.md)
+- Implement per-concept IRT theta tracking
+- Implement per-user difficulty computation
+- Implement auto-discovery logic for new concepts
+- New concepts start at difficulty 3, then adapt based on performance
+- Same question cached, served to multiple users with different difficulties
+
+Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>"
+git log --oneline -5

@@ -1,0 +1,5 @@
+[33m40e5f54[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m feat: Implement concept-aware question caching with per-user ELO
+[33m96a498d[m Concept mastery: backend API, DB tracking, and frontend dashboard integration (concept_irt, exposure_count, /stats/concept-mastery, UI)
+[33md7d2bee[m feat(concepts): Complete backend concept-aware adaptive learning
+[33m961e0e3[m feat(concepts): Infrastructure for concept-based adaptive learning
+[33m37256a4[m feat(idempotency): Complete spam answer prevention with backend-driven UI locking

@@ -1,0 +1,10 @@
+/* Login-specific styles
+ * 
+ * NOTE: These styles are currently NOT used - buttons use "auth-button" class only.
+ * To enable: add "login" class to the button in Login.tsx
+ * Example: <button className="auth-button login" ...>
+ */
+
+.auth-button.login {
+  background: #22c55e;
+}

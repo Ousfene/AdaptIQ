@@ -1,0 +1,645 @@
+{
+  "timestamp": "20260402_021935",
+  "tested_profiles": 5,
+  "total_events": 73,
+  "logs": [
+    {
+      "timestamp": "2026-04-02T02:19:35.948723",
+      "event_type": "PROFILE_TEST_START",
+      "profile": "Novice Reader",
+      "data": {
+        "description": "Beginner in all topics",
+        "num_questions": 10
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:36.412186",
+      "event_type": "LOGIN_SUCCESS",
+      "profile": "Novice Reader",
+      "data": {
+        "user_id": null,
+        "email": "novice_reader_test@example.com",
+        "token_issued": true
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:36.414363",
+      "event_type": "CLASSIC_SESSION_START",
+      "profile": "Novice Reader",
+      "data": {
+        "session_id": "cbe7a4cb-61f0-4baf-9ab8-88d7a1f6e75a",
+        "topic": "geography",
+        "expected_difficulty": "ZPD range based on theta"
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:36.416492",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Novice Reader",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:36.418158",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Novice Reader",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:36.420561",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Novice Reader",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:36.422942",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Novice Reader",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:36.425271",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Novice Reader",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:36.427454",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Novice Reader",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:36.430045",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Novice Reader",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:36.432172",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Novice Reader",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:36.434280",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Novice Reader",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:36.436417",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Novice Reader",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:36.436556",
+      "event_type": "CLASSIC_SESSION_COMPLETE",
+      "profile": "Novice Reader",
+      "data": {
+        "session_id": "cbe7a4cb-61f0-4baf-9ab8-88d7a1f6e75a",
+        "questions_answered": 0,
+        "correct_answers": 0,
+        "accuracy_percent": 0,
+        "hints_used": 0
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:37.444910",
+      "event_type": "PROFILE_TEST_START",
+      "profile": "Geography Expert",
+      "data": {
+        "description": "Expert in geography, novice in history",
+        "num_questions": 10
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:37.646534",
+      "event_type": "LOGIN_SUCCESS",
+      "profile": "Geography Expert",
+      "data": {
+        "user_id": null,
+        "email": "geo_expert_test@example.com",
+        "token_issued": true
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:37.648018",
+      "event_type": "CLASSIC_SESSION_START",
+      "profile": "Geography Expert",
+      "data": {
+        "session_id": "6924ab77-90e3-48b1-9823-f1759ca9acd5",
+        "topic": "geography",
+        "expected_difficulty": "ZPD range based on theta"
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:37.649819",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Geography Expert",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:37.651586",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Geography Expert",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:37.654357",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Geography Expert",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:37.656240",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Geography Expert",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:37.657933",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Geography Expert",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:37.659547",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Geography Expert",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:37.662231",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Geography Expert",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:37.664330",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Geography Expert",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:37.666323",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Geography Expert",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:37.668273",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Geography Expert",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:37.668337",
+      "event_type": "CLASSIC_SESSION_COMPLETE",
+      "profile": "Geography Expert",
+      "data": {
+        "session_id": "6924ab77-90e3-48b1-9823-f1759ca9acd5",
+        "questions_answered": 0,
+        "correct_answers": 0,
+        "accuracy_percent": 0,
+        "hints_used": 0
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:38.676121",
+      "event_type": "PROFILE_TEST_START",
+      "profile": "History Expert",
+      "data": {
+        "description": "Expert in history, novice in geography",
+        "num_questions": 10
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:38.901652",
+      "event_type": "LOGIN_SUCCESS",
+      "profile": "History Expert",
+      "data": {
+        "user_id": null,
+        "email": "hist_expert_test@example.com",
+        "token_issued": true
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:38.903503",
+      "event_type": "CLASSIC_SESSION_START",
+      "profile": "History Expert",
+      "data": {
+        "session_id": "35153c4b-5cd9-4a6e-a319-6c89b6cc076b",
+        "topic": "geography",
+        "expected_difficulty": "ZPD range based on theta"
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:38.905773",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "History Expert",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:38.907741",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "History Expert",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:38.909592",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "History Expert",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:38.911633",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "History Expert",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:38.913698",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "History Expert",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:38.915725",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "History Expert",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:38.917740",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "History Expert",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:38.920239",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "History Expert",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:38.922308",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "History Expert",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:38.924370",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "History Expert",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:38.924442",
+      "event_type": "CLASSIC_SESSION_COMPLETE",
+      "profile": "History Expert",
+      "data": {
+        "session_id": "35153c4b-5cd9-4a6e-a319-6c89b6cc076b",
+        "questions_answered": 0,
+        "correct_answers": 0,
+        "accuracy_percent": 0,
+        "hints_used": 0
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:39.928317",
+      "event_type": "PROFILE_TEST_START",
+      "profile": "Balanced Learner",
+      "data": {
+        "description": "Intermediate in both topics",
+        "num_questions": 10
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:40.126086",
+      "event_type": "LOGIN_SUCCESS",
+      "profile": "Balanced Learner",
+      "data": {
+        "user_id": null,
+        "email": "balanced_test@example.com",
+        "token_issued": true
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:40.127759",
+      "event_type": "CLASSIC_SESSION_START",
+      "profile": "Balanced Learner",
+      "data": {
+        "session_id": "16b54e38-ef4f-4b80-b20e-5a936d335a85",
+        "topic": "geography",
+        "expected_difficulty": "ZPD range based on theta"
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:40.129669",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Balanced Learner",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:40.131454",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Balanced Learner",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:40.133106",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Balanced Learner",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:40.134744",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Balanced Learner",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:40.137248",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Balanced Learner",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:40.138940",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Balanced Learner",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:40.140609",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Balanced Learner",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:40.142272",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Balanced Learner",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:40.144778",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Balanced Learner",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:40.146609",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Balanced Learner",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:40.146672",
+      "event_type": "CLASSIC_SESSION_COMPLETE",
+      "profile": "Balanced Learner",
+      "data": {
+        "session_id": "16b54e38-ef4f-4b80-b20e-5a936d335a85",
+        "questions_answered": 0,
+        "correct_answers": 0,
+        "accuracy_percent": 0,
+        "hints_used": 0
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:41.152051",
+      "event_type": "PROFILE_TEST_START",
+      "profile": "Challenger",
+      "data": {
+        "description": "Focus on challenge room progression",
+        "num_questions": 10
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:41.403321",
+      "event_type": "LOGIN_SUCCESS",
+      "profile": "Challenger",
+      "data": {
+        "user_id": null,
+        "email": "challenger_test@example.com",
+        "token_issued": true
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:41.405016",
+      "event_type": "CLASSIC_SESSION_START",
+      "profile": "Challenger",
+      "data": {
+        "session_id": "b72a39c7-b3c9-4e58-93da-7adea9722ea4",
+        "topic": "geography",
+        "expected_difficulty": "ZPD range based on theta"
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:41.407491",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Challenger",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:41.409981",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Challenger",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:41.412483",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Challenger",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:41.414818",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Challenger",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:41.416965",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Challenger",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:41.419697",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Challenger",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:41.422368",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Challenger",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:41.424735",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Challenger",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:41.427338",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Challenger",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:41.430318",
+      "event_type": "QUESTION_FETCH_FAILED",
+      "profile": "Challenger",
+      "data": {
+        "status": 401
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:41.430407",
+      "event_type": "CLASSIC_SESSION_COMPLETE",
+      "profile": "Challenger",
+      "data": {
+        "session_id": "b72a39c7-b3c9-4e58-93da-7adea9722ea4",
+        "questions_answered": 0,
+        "correct_answers": 0,
+        "accuracy_percent": 0,
+        "hints_used": 0
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:41.684191",
+      "event_type": "LOGIN_SUCCESS",
+      "profile": "Challenger",
+      "data": {
+        "user_id": null,
+        "email": "challenger_test@example.com",
+        "token_issued": true
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:41.684264",
+      "event_type": "CHALLENGE_SESSION_START",
+      "profile": "Challenger",
+      "data": {
+        "starting_rank": "Bronze",
+        "expected_progression": "Bronze \u2192 Silver (if 3 correct)"
+      }
+    },
+    {
+      "timestamp": "2026-04-02T02:19:41.684367",
+      "event_type": "CHALLENGE_TESTING_NOTED",
+      "profile": "Challenger",
+      "data": {
+        "status": "Challenge room endpoints ready for testing",
+        "endpoints": [
+          "/api/rooms/challenge/start",
+          "/api/rooms/challenge/question",
+          "/api/rooms/challenge/answer",
+          "/api/rooms/challenge/end"
+        ]
+      }
+    }
+  ]
+}

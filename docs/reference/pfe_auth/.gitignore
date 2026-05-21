@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+
+# Virtual environments
+.venv/
+backend/.venv/
+archive/.venv_root/
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Test/build artifacts
+frontend/test-results/
+frontend/playwright-report/
+coverage/
+
+# Editor/OS
+.vscode/*.log
+.DS_Store
+Thumbs.db
+
+# Local secrets
+.env
+backend/.env
+frontend/.env.local
+
+# Build output
+frontend/dist/
+
+# IDE/tool configs
+.obsidian/
+
+# Misc
+backend/package-lock.json

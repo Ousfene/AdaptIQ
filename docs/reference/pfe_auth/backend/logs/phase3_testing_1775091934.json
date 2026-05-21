@@ -1,0 +1,149 @@
+{
+  "timestamp": "2026-04-02T01:05:34.050341+00:00",
+  "profiles": {
+    "novice_reader_1775089851": {
+      "username": "novice_reader_1775089851",
+      "name": "Novice Reader",
+      "email": "novice_reader_test@example.com",
+      "tests": {
+        "account": {
+          "user_id": "dfead852-5c1c-4396-8536-ba6ebcfc312d",
+          "username": "novice_reader_1775089851",
+          "email": "novice_reader_test@example.com",
+          "elo_global": 0,
+          "level": "Novice",
+          "verification": "PASS"
+        },
+        "concept_theta": {
+          "concepts_tracked": 0,
+          "concepts": [],
+          "verification": "PASS"
+        },
+        "responses": {
+          "total_responses": 0,
+          "recent_responses": [],
+          "verification": "PASS"
+        }
+      },
+      "issues": [],
+      "api_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkZmVhZDg1Mi01YzFjLTQzOTYtODUzNi1iYTZlYmNmYzMxMmQiLCJleHAiOjE3NzUwOTM3MzQsImlhdCI6MTc3NTA5MTkzNCwianRpIjoiNTNkNTY2MjMtYWYwNy00YTRjLWFlZjEtMzcxY2Y3YjU3NjJlIn0.IgXWnj1qcQU2gWLds8o54KTBXBinyGJnTQcy-yT6DTo"
+    },
+    "geo_expert_1775089851": {
+      "username": "geo_expert_1775089851",
+      "name": "Geography Expert",
+      "email": "geo_expert_test@example.com",
+      "tests": {
+        "account": {
+          "user_id": "d5e4eafe-8815-4a69-bef7-5b544f30c84c",
+          "username": "geo_expert_1775089851",
+          "email": "geo_expert_test@example.com",
+          "elo_global": 0,
+          "level": "Novice",
+          "verification": "PASS"
+        },
+        "concept_theta": {
+          "concepts_tracked": 0,
+          "concepts": [],
+          "verification": "PASS"
+        },
+        "responses": {
+          "total_responses": 0,
+          "recent_responses": [],
+          "verification": "PASS"
+        }
+      },
+      "issues": [],
+      "api_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkNWU0ZWFmZS04ODE1LTRhNjktYmVmNy01YjU0NGYzMGM4NGMiLCJleHAiOjE3NzUwOTM3MzQsImlhdCI6MTc3NTA5MTkzNCwianRpIjoiNzJhMWEzNTMtM2Y2OC00M2M4LTkwM2MtMjE0ZDI0ZjljNzc1In0.4XbIdG4obqdlOP4zBSJzukxP7Fm6cLMtkGeQJ1gkPk4"
+    },
+    "hist_expert_1775089851": {
+      "username": "hist_expert_1775089851",
+      "name": "History Expert",
+      "email": "hist_expert_test@example.com",
+      "tests": {
+        "account": {
+          "user_id": "4a1fa85d-6ed8-4440-8c2e-d8fc281a6375",
+          "username": "hist_expert_1775089851",
+          "email": "hist_expert_test@example.com",
+          "elo_global": 0,
+          "level": "Novice",
+          "verification": "PASS"
+        },
+        "concept_theta": {
+          "concepts_tracked": 0,
+          "concepts": [],
+          "verification": "PASS"
+        },
+        "responses": {
+          "total_responses": 0,
+          "recent_responses": [],
+          "verification": "PASS"
+        }
+      },
+      "issues": [],
+      "api_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0YTFmYTg1ZC02ZWQ4LTQ0NDAtOGMyZS1kOGZjMjgxYTYzNzUiLCJleHAiOjE3NzUwOTM3MzQsImlhdCI6MTc3NTA5MTkzNCwianRpIjoiZTkwM2E2NzItZjFkMi00YWQ2LTgzMTItMTA2ZmViN2UxNzRiIn0.RUirWzh9Iq1iNJPVhHbW3sPp9J31s53gu5nFsg5RMTs"
+    },
+    "balanced_1775089851": {
+      "username": "balanced_1775089851",
+      "name": "Balanced Learner",
+      "email": "balanced_test@example.com",
+      "tests": {
+        "account": {
+          "user_id": "5819149c-08c3-451f-8b35-20d1ff090011",
+          "username": "balanced_1775089851",
+          "email": "balanced_test@example.com",
+          "elo_global": 0,
+          "level": "Novice",
+          "verification": "PASS"
+        },
+        "concept_theta": {
+          "concepts_tracked": 0,
+          "concepts": [],
+          "verification": "PASS"
+        },
+        "responses": {
+          "total_responses": 0,
+          "recent_responses": [],
+          "verification": "PASS"
+        }
+      },
+      "issues": [],
+      "api_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1ODE5MTQ5Yy0wOGMzLTQ1MWYtOGIzNS0yMGQxZmYwOTAwMTEiLCJleHAiOjE3NzUwOTM3MzQsImlhdCI6MTc3NTA5MTkzNCwianRpIjoiM2JlZTc5ZGUtMDdlZS00NTU1LWJjNzctMDdjMTEzNzBiOGU4In0.QBM_VH1wCaIenx3khzpHrPVX6RrgWTt9Yjd6JQWzfGs"
+    },
+    "challenger_1775089851": {
+      "username": "challenger_1775089851",
+      "name": "Challenger",
+      "email": "challenger_test@example.com",
+      "tests": {
+        "account": {
+          "user_id": "e19cd324-d25c-4327-8c68-4d3aa4c197c8",
+          "username": "challenger_1775089851",
+          "email": "challenger_test@example.com",
+          "elo_global": 0,
+          "level": "Novice",
+          "verification": "PASS"
+        },
+        "concept_theta": {
+          "concepts_tracked": 0,
+          "concepts": [],
+          "verification": "PASS"
+        },
+        "responses": {
+          "total_responses": 0,
+          "recent_responses": [],
+          "verification": "PASS"
+        },
+        "challenge_rank": {
+          "verification": "PASS"
+        }
+      },
+      "issues": [],
+      "api_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlMTljZDMyNC1kMjVjLTQzMjctOGM2OC00ZDNhYTRjMTk3YzgiLCJleHAiOjE3NzUwOTM3MzQsImlhdCI6MTc3NTA5MTkzNCwianRpIjoiNzAyMjUyOTktNDRjYi00NDU2LTlkYjQtZmRkZGI3YWZjNzUyIn0.N_PTesZIr8z-FMH6z2BmY_UeCRIAycbVH_LxLfPKCmA"
+    }
+  },
+  "summary": {
+    "total_profiles_tested": 5,
+    "profiles_with_data": 5,
+    "test_timestamp": "2026-04-02T01:05:34.145222+00:00",
+    "status": "COMPLETE"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "authentication": {
+    "status": "\u2705 SUCCESS",
+    "email": "novice_reader_test@example.com",
+    "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6Ik...",
+    "user_id": "dfead852-5c1c-4396-8536-ba6ebcfc312d",
+    "timestamp": "2026-04-02T02:59:52.498652"
+  },
+  "redis_state": {
+    "status": "\u26a0\ufe0f  Not directly testable",
+    "message": "Redis might not be directly accessible from this test, but operational in backend"
+  },
+  "rag_validation": {
+    "status": "\u2705 VERIFIED",
+    "sources_available": [
+      "Wikipedia",
+      "HuggingFace",
+      "Wikidata"
+    ],
+    "validation_enabled": true,
+    "message": "RAG pipeline operational - questions generated and validated"
+  },
+  "difficulty_selection": {},
+  "adaptivity": {},
+  "challenge_room": {
+    "status": "\u2705 VERIFIED",
+    "current_rank": "Bronze",
+    "wins": 0,
+    "losses": 0,
+    "skip_available": false,
+    "message": "Challenge room accessible and rank system operational"
+  },
+  "errors": [
+    "Classic room error: "
+  ]
+}

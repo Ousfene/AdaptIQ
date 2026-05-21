@@ -1,0 +1,188 @@
+[
+  {
+    "timestamp": "2026-04-02T01:09:30.820085+00:00",
+    "level": "OK",
+    "message": "Login successful: novice_reader_1775089851",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.037482+00:00",
+    "level": "OK",
+    "message": "Login successful: geo_expert_1775089851",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.238892+00:00",
+    "level": "OK",
+    "message": "Login successful: hist_expert_1775089851",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.442371+00:00",
+    "level": "OK",
+    "message": "Login successful: balanced_1775089851",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.641163+00:00",
+    "level": "OK",
+    "message": "Login successful: challenger_1775089851",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.642500+00:00",
+    "level": "OK",
+    "message": "Health check passed",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.684914+00:00",
+    "level": "OK",
+    "message": "Dashboard data: level=Novice, elo=0.0",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.687207+00:00",
+    "level": "OK",
+    "message": "Health check passed",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.688862+00:00",
+    "level": "OK",
+    "message": "Dashboard data: level=Novice, elo=0.0",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.691216+00:00",
+    "level": "OK",
+    "message": "Health check passed",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.692614+00:00",
+    "level": "OK",
+    "message": "Dashboard data: level=Novice, elo=0.0",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.694345+00:00",
+    "level": "OK",
+    "message": "Health check passed",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.695604+00:00",
+    "level": "OK",
+    "message": "Dashboard data: level=Novice, elo=0.0",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.697311+00:00",
+    "level": "OK",
+    "message": "Health check passed",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.698795+00:00",
+    "level": "OK",
+    "message": "Dashboard data: level=Novice, elo=0.0",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.703756+00:00",
+    "level": "INFO",
+    "message": "No concepts tracked yet (new user)",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.706289+00:00",
+    "level": "INFO",
+    "message": "No concepts tracked yet (new user)",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.708606+00:00",
+    "level": "INFO",
+    "message": "No concepts tracked yet (new user)",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.710767+00:00",
+    "level": "INFO",
+    "message": "No concepts tracked yet (new user)",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.712728+00:00",
+    "level": "INFO",
+    "message": "No concepts tracked yet (new user)",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.720405+00:00",
+    "level": "WARN",
+    "message": "Question endpoint responded: 422",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.723372+00:00",
+    "level": "OK",
+    "message": "Responses in DB: 0",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.728754+00:00",
+    "level": "WARN",
+    "message": "Question endpoint responded: 422",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.730096+00:00",
+    "level": "OK",
+    "message": "Responses in DB: 0",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.735909+00:00",
+    "level": "WARN",
+    "message": "Question endpoint responded: 422",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.737364+00:00",
+    "level": "OK",
+    "message": "Responses in DB: 0",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.743365+00:00",
+    "level": "WARN",
+    "message": "Question endpoint responded: 422",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.744859+00:00",
+    "level": "OK",
+    "message": "Responses in DB: 0",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.750790+00:00",
+    "level": "WARN",
+    "message": "Question endpoint responded: 422",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.752112+00:00",
+    "level": "OK",
+    "message": "Responses in DB: 0",
+    "data": null
+  },
+  {
+    "timestamp": "2026-04-02T01:09:31.755018+00:00",
+    "level": "INFO",
+    "message": "No challenge rank record yet",
+    "data": null
+  }
+]

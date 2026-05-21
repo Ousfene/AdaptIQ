@@ -1,0 +1,10 @@
+/* Sign-up-specific styles
+ *
+ * NOTE: These styles are currently NOT used - buttons use "auth-button" class only.
+ * To enable: add "signup" class to the button in Signup.tsx
+ * Example: <button className="auth-button signup" ...>
+ */
+
+.auth-button.signup {
+  background: #f59e42;
+}

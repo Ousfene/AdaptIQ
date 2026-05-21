@@ -1,0 +1,86 @@
+[
+  {
+    "timestamp": "2026-04-02T00:30:52.129438+00:00",
+    "event_type": "test_user_created",
+    "category": "testing",
+    "user_id": "dfead852-5c1c-4396-8536-ba6ebcfc312d",
+    "session_id": null,
+    "data": {
+      "profile": "novice_reader",
+      "description": "Beginner in all topics",
+      "username": "novice_reader_1775089851",
+      "initial_theta": -2.0,
+      "topics": [
+        "geography",
+        "history"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-04-02T00:30:52.323422+00:00",
+    "event_type": "test_user_created",
+    "category": "testing",
+    "user_id": "d5e4eafe-8815-4a69-bef7-5b544f30c84c",
+    "session_id": null,
+    "data": {
+      "profile": "geo_expert",
+      "description": "Expert in geography, novice in history",
+      "username": "geo_expert_1775089851",
+      "initial_theta": 2.0,
+      "topics": [
+        "geography",
+        "history"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-04-02T00:30:52.519406+00:00",
+    "event_type": "test_user_created",
+    "category": "testing",
+    "user_id": "4a1fa85d-6ed8-4440-8c2e-d8fc281a6375",
+    "session_id": null,
+    "data": {
+      "profile": "hist_expert",
+      "description": "Expert in history, novice in geography",
+      "username": "hist_expert_1775089851",
+      "initial_theta": 2.0,
+      "topics": [
+        "history",
+        "geography"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-04-02T00:30:52.719062+00:00",
+    "event_type": "test_user_created",
+    "category": "testing",
+    "user_id": "5819149c-08c3-451f-8b35-20d1ff090011",
+    "session_id": null,
+    "data": {
+      "profile": "balanced",
+      "description": "Intermediate in both topics",
+      "username": "balanced_1775089851",
+      "initial_theta": 0.0,
+      "topics": [
+        "geography",
+        "history"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-04-02T00:30:52.913345+00:00",
+    "event_type": "test_user_created",
+    "category": "testing",
+    "user_id": "e19cd324-d25c-4327-8c68-4d3aa4c197c8",
+    "session_id": null,
+    "data": {
+      "profile": "challenger",
+      "description": "For challenge room focus testing",
+      "username": "challenger_1775089851",
+      "initial_theta": 1.0,
+      "topics": [
+        "mixed"
+      ]
+    }
+  }
+]

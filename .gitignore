@@ -1,0 +1,58 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Python test/coverage output
+.coverage
+coverage.xml
+htmlcov/
+
+# Node dependencies and builds
+**/node_modules/
+**/dist/
+**/build/
+.next/
+
+# Runtime artifacts and generated files
+*.log
+*.pid
+*.sqlite
+*.sqlite3
+*.db
+*.zip
+backend/logs/
+backend/generated/
+backend/server.pid
+backend/server.log
+backend/backend.log
+backend/backend_.log
+backend/backend_*.log
+frontend/frontend.log
+
+# Local environment and secrets
+.env
+.env.local
+.env.*.local
+
+# Keep shared examples
+!.env.example
+!backend/.env.example
+!backend/.env.test
+
+# IDE / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Tooling metadata
+.qodo/
