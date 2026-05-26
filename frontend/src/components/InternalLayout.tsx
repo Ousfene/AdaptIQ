@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ChatAssistant from './ChatAssistant';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { 
   LayoutDashboard, 
@@ -127,6 +128,8 @@ const InternalLayout: React.FC<InternalLayoutProps> = ({ children, forceRoomsOpe
           {children}
         </div>
       </main>
+
+      <ChatAssistant />
     </div>
   );
 };

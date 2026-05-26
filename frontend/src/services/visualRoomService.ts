@@ -17,8 +17,8 @@ import type {
   VisualEndSessionResponse,
 } from '../types/visual';
 import { notifyDashboardStatsUpdated } from './dashboardEvents';
-
-const API_BASE = import.meta.env.VITE_API_URL ?? 'http://localhost:8000';
+import { API_BASE } from '../config';
+import { authHeaders } from './http';
 
 // ── Auth helpers (match other rooms) ─────────────────────────────────────────
 
@@ -51,7 +51,7 @@ export async function startVisualSession(
   const userId = getUserId();
   const res = await fetch(`${API_BASE}/api/visual/start-session`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: authHeaders(),
     body: JSON.stringify({ user_id: userId, topic, level }),
   });
   if (!res.ok) throw new Error(`start-session failed: ${res.status}`);
@@ -66,7 +66,9 @@ export async function fetchNextVisualQuestion(
   const params = new URLSearchParams({
     session_id: sessionId,
   });
-  const res = await fetch(`${API_BASE}/api/visual/next?${params}`);
+  const res = await fetch(`${API_BASE}/api/visual/next?${params}`, {
+    headers: authHeaders(false),
+  });
   if (!res.ok) throw new Error(`fetch next failed: ${res.status}`);
   return res.json();
 }
@@ -82,7 +84,7 @@ export async function submitVisualAnswer(
   const userId = getUserId();
   const res = await fetch(`${API_BASE}/api/visual/submit`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: authHeaders(),
     body: JSON.stringify({
       session_id:    sessionId,
       question_id:   questionId,
@@ -101,7 +103,9 @@ export async function submitVisualAnswer(
 
 export async function fetchVisualHint(questionId: string): Promise<string> {
   const params = new URLSearchParams({ question_id: questionId });
-  const res = await fetch(`${API_BASE}/api/visual/hint?${params}`);
+  const res = await fetch(`${API_BASE}/api/visual/hint?${params}`, {
+    headers: authHeaders(false),
+  });
   if (!res.ok) throw new Error(`hint fetch failed: ${res.status}`);
   const data = await res.json();
   return data.hint as string;
@@ -112,6 +116,7 @@ export async function fetchVisualHint(questionId: string): Promise<string> {
 export async function endVisualSession(sessionId: string) {
   const res = await fetch(`${API_BASE}/api/visual/session/${sessionId}/end`, {
     method: 'POST',
+    headers: authHeaders(),
   });
   if (!res.ok) throw new Error(`end session failed: ${res.status}`);
   return res.json() as Promise<VisualEndSessionResponse>;

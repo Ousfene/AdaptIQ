@@ -16,11 +16,11 @@ import uuid
 from logging.handlers import RotatingFileHandler
 from pathlib import Path
 from contextlib import asynccontextmanager
-from typing import cast, Any, Optional
+from typing import cast, Any
 
 import httpx
 import structlog
-from fastapi import FastAPI, Request, HTTPException
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from slowapi.errors import RateLimitExceeded
@@ -49,7 +49,7 @@ import database.onboarding_models
 import database.concept_models
 import database.pvp_models
 import database.governance_models
-import database.visual_models
+import database.visual_models as _visual_models  # registers VisualQuestion/VisualSession
 from services.llm import LLMClient
 from services.session import SessionService
 from services.monitoring import get_monitoring
@@ -146,9 +146,9 @@ async def lifespan(app: FastAPI):
     app.state.db_session_factory = None
     app.state.redis = None
     app.state.http_client = None
-    app.state.llm_client: Optional[LLMClient] = None
-    app.state.rag_pipeline: Optional[AgenticRAGPipeline] = None
-    app.state.session_service: Optional[SessionService] = None
+    app.state.llm_client = None
+    app.state.rag_pipeline = None
+    app.state.session_service = None
 
     _engine = None
     _factory = None
@@ -438,6 +438,7 @@ try:
     from routers.governance import governance_router
     from routers.pvp import pvp_router
     from routers.visual_room import visual_router
+    from routers.chat_router import chat_router
 
     app.include_router(auth_router)
     app.include_router(classic_router)
@@ -448,7 +449,8 @@ try:
     app.include_router(governance_router)
     app.include_router(pvp_router)
     app.include_router(visual_router)
-    logger.info("All routers loaded successfully (including Visual Room)")
+    app.include_router(chat_router)
+    logger.info("All routers loaded successfully (including Visual Room and Scholar Chat)")
 except ImportError as e:
     logger.warning(f"Some routers failed to load: {e}")
 
@@ -469,7 +471,8 @@ async def health_check():
 
 
 if __name__ == "__main__":
-    import uvicorn, os as _os
+    import os as _os
+    import uvicorn
     run_port = int(_os.getenv("PORT", "8000"))
     uvicorn.run(
         "main:app",
